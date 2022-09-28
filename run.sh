@@ -10,6 +10,11 @@ if [ "$lab_num" == 1 ]; then
     sim_file="master-workers-lab1.py"
 fi
 
+if [ "$lab_num" == 2 ]; then
+    deploy_file="master-workers-d-lab2.xml"
+    sim_file="master-workers-lab2.py"
+fi
+
 until [ "`docker inspect -f {{.State.Running}} simgrid`"=="true" ]; do
     sleep 0.1;
 done;
