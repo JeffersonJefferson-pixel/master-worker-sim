@@ -1,5 +1,5 @@
 #This file was generated using SimGrid-3.31.0
-#[master-workers.py small_platform.xml master-workers_d.xml --cfg=tracing:yes --cfg=tracing/actor:yes ]
+#[master-workers-lab1.py small_platform.xml master-workers-d-lab1.xml --cfg=tracing:yes --cfg=tracing/actor:yes ]
 %EventDef PajeDefineContainerType 0
 %       Alias string
 %       Type string
