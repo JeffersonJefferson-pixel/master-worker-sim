@@ -1,0 +1,8 @@
+services:
+
+  simgrid:
+    container_name: simgrid
+    image: simgrid/tuto-s4u
+    volumes:
+      - ./source:/source/tutorial
+    tty: true
